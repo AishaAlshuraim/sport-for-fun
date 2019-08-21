@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae6b01b62dbdf54e93aa53ef903ce567",
+    "revision": "125a60cf952a8246660c35b759de1f8d",
     "url": "/sport-for-fun/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sport-for-fun/static/css/2.47fb9b64.chunk.css"
   },
   {
-    "revision": "a4343f7c65dc95079baf",
+    "revision": "a0701afb61ebc5805f20",
     "url": "/sport-for-fun/static/css/main.d00a5523.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sport-for-fun/static/js/2.4c2740d3.chunk.js"
   },
   {
-    "revision": "a4343f7c65dc95079baf",
-    "url": "/sport-for-fun/static/js/main.55909a56.chunk.js"
+    "revision": "a0701afb61ebc5805f20",
+    "url": "/sport-for-fun/static/js/main.52a2dce5.chunk.js"
   },
   {
     "revision": "3d35a3dbf036ea5e95d8",
