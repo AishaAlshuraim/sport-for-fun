@@ -23,8 +23,10 @@ import * as cinter from  "./HomePage/CityDB.json";
        img3:undefined ,
        contact: undefined,
        comments:undefined,
+       website:undefined,
        visitors:undefined,
        address:undefined,
+       addressLink:undefined,
        openingHours:undefined,
        activities:undefined,
        BannerImg: undefined,
@@ -41,9 +43,11 @@ componentDidMount() {
     img2:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].images[1] ,
     img3:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].images[2] ,
     contact: cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].contact,
+    website:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].website,
     comments:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].comments,
     visitors:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].visitors,
     address:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].address,
+    addressLink:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].addressLink,
     openingHours:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].openingHours,
     activities:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].activities,
     BannerImg:cinter.default.cities[this.props.match.params.city].centers[this.state.id -1].BannerImg,
@@ -68,11 +72,14 @@ componentDidMount() {
           <div className="Deta">
            <Details
               contact={this.state.contact}
+              website={this.state.website}
              comments={this.state.comments}
              visitors={this.state.visitors}
              address={this.state.address}
              openingHours={this.state.openingHours}
              activities={this.state.activities}
+             addressLink={this.state.addressLink}
+
 
              />
           </div>

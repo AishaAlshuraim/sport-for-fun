@@ -36,7 +36,8 @@
           "website": "http://alagharclub.com/ar/programs.aspx",
           "comments":"Good place for table tennis and other indoor stuff.",
           "visitors":["Kids","Adults"],
-          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],        "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
+          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],
+          "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
           "openingHours":"8AM,8PM",
           "activities":"Table Tennis"
           },
@@ -219,7 +220,8 @@
           "website": "https://www.riyadhgolfcourses.com/",
           "comments":"Enjoyable horse riding with kids",
           "visitors":["Kids","Adults"],
-          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],        "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
+          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],
+         "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
           "openingHours":"8AM,8PM",
           "activities":"Horse riding"
           },
@@ -236,7 +238,8 @@
           "website": "https://www.riyadhgolfcourses.com/",
           "comments":"Good place for table tennis and other indoor stuff.",
           "visitors":["Kids","Adults"],
-          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],        "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
+          "address":["P.O. Box 84329","Riyadh 11671","Kingdom of Saudi Arabia"],
+          "addressLink":"https://goo.gl/maps/APxqhg6MxWFqhTLq9",
           "openingHours":"8AM,8PM",
           "activities":"Table Tennis"
           },

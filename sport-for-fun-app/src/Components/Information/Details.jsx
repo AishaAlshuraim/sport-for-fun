@@ -13,7 +13,7 @@ import ThumbDown from '@material-ui/icons/ThumbDown';
 import ThumbUp from '@material-ui/icons/ThumbUp';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-
+import './Details.scss';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -48,7 +48,9 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     width: '100%',
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: `#142840`,
+
+    // backgroundColor: theme.palette.background.paper,
   },
 }));
 
@@ -61,6 +63,7 @@ export default function Details(props) {
   }
 
   return (
+    <div className="Details">
     <div className={classes.root}>
       <AppBar position="static" color="default">
         <Tabs
@@ -76,8 +79,8 @@ export default function Details(props) {
           <Tab label="Comments" icon={<FavoriteIcon />} {...a11yProps(2)} />
           <Tab label="Visitors" icon={<PersonPinIcon />} {...a11yProps(3)} />
           <Tab label="Address" icon={<HelpIcon />} {...a11yProps(4)} />
-            <Tab label="Opening Hours" icon={<ShoppingBasket />} {...a11yProps(4)} />
-          <Tab label="Activityes" icon={<ThumbUp />} {...a11yProps(6)} />
+            <Tab label="Opening Hours"icon={<HelpIcon />}   {...a11yProps(4)} />
+          <Tab label="Activityes" icon={<HelpIcon />}  {...a11yProps(6)} />
 
         </Tabs>
       </AppBar>
@@ -85,7 +88,7 @@ export default function Details(props) {
       <p>
          <a href={`tel:${props.contact}`}style={{textDecoration: 'none'}}>{`Click To Call ${props.contact}`}</a>
          <p></p>
-        <a href="https://www.riyadhgolfcourses.com/" style={{textDecoration: 'none'}}>Click To Show Website</a>
+        <a href={props.website} style={{textDecoration: 'none'}}>Click To Show Website</a>
       </p>
       </TabPanel>
       <TabPanel value={value} index={1}>
@@ -97,6 +100,8 @@ export default function Details(props) {
       </TabPanel>
       <TabPanel value={value} index={3}>
            <p> {props.address} </p>
+            <p>  <a href={props.addressLink}> addressLink </a> </p>
+
 
       </TabPanel>
       <TabPanel value={value} index={4}>
@@ -106,6 +111,7 @@ export default function Details(props) {
       <p> {props.activities}</p>
       </TabPanel>
 
+    </div>
     </div>
   );
 }
